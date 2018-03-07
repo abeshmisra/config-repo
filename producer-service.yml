@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: producer-service
+  data:
+    mongodb:
+      database: DemoDB
+server:
+  servlet:
+    context-path: /svc/v1
